@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] < 'a' || argv[i][j] > 'z')
 			{
-				printf("Argument %d: %d is not a-z\n", i, argv[i]);
+				printf("Argument %d: %s is not a-z\n", i, argv[i]);
 				return 1;
 			}
 		}
