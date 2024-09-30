@@ -2,7 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-	// Check if arguments are a-z
 	for (int i = 1; i < argc; i++)
 	{
 		for (int j = 0; argv[i][j] != '\0'; j++)
